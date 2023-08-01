@@ -10,9 +10,9 @@ class Ugyfel{
           this.nev      = adatok[0];
           this.elso     = int.Parse(adatok[1].Substring(0,4));
           this.utolso   = int.Parse(adatok[2].Substring(0,4));
-          this.tomeg     = int.Parse(adatok[3]);
+          this.tomeg    = int.Parse(adatok[3]);
           this.magassag = int.Parse(adatok[4]);
-          this.ev_ho    =  adatok[2].Substring(0,7);
+          this.ev_ho    = adatok[2].Substring(0,7);
       }
 
       public string nev      { get; set; }
